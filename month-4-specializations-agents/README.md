@@ -78,7 +78,7 @@ See [`projects/month-4-project.md`](./projects/month-4-project.md).
 ---
 
 ## Resources
-- Anthropic docs on tool use, and on building agents.
+- OpenAI docs on function calling, structured outputs, embeddings, and agents.
 - Your reference agentic-AI engineering course — Month 4 is the closest match;
   pull its agent/RAG/deployment modules alongside these weeks.
 - Repo-level [`resources.md`](../resources.md).

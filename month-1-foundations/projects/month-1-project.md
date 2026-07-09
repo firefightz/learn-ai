@@ -1,6 +1,6 @@
 # Month 1 Project — LLM-Powered CLI Tool
 
-Build a small but real command-line tool powered by the Claude API.
+Build a small but real command-line tool powered by the OpenAI API.
 
 ## Pick one
 1. **Smart summarizer** — paste/point at text, get a tight summary + 3 key points.

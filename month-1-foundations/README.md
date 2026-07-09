@@ -34,7 +34,7 @@ No math yet. We build mental models, then build software.
 - Context window, temperature, and why models hallucinate.
 
 **Hands-on lab**
-- Use a tokenizer (e.g. `tiktoken` or Anthropic's tooling) to tokenize a paragraph.
+- Use a tokenizer (e.g. `tiktoken`) to tokenize a paragraph.
   Count tokens, see how rare words split, observe how whitespace/casing matter.
 
 **Deliverable:** `notes/week2-llm-explainer.md` — explain "how an LLM answers a
@@ -61,10 +61,11 @@ and parses structured output.
 ---
 
 ## Week 4 — First Builds (Project Week)
-**Objectives:** Call the Claude API from Python and ship something real.
+**Objectives:** Call the OpenAI API from Python and ship something real.
 
 **Topics**
-- The Anthropic Python SDK: messages, system prompts, model choice, streaming.
+- The OpenAI Python SDK: messages, system/developer prompts, model choice,
+  streaming.
 - Managing API keys safely (`.env`).
 - Cost & model selection: capable model for quality, small model for speed/cost.
 - Basic error handling and retries.
@@ -73,11 +74,11 @@ and parses structured output.
 See [`projects/month-1-project.md`](./projects/month-1-project.md).
 
 **Deliverable:** A working **CLI summarizer or chatbot** that takes input, calls the
-Claude API, and prints a useful response. Committed to `projects/`.
+OpenAI API, and prints a useful response. Committed to `projects/`.
 
 ---
 
 ## Resources
-- Anthropic API docs & the Python SDK quickstart.
+- OpenAI API docs & the Python SDK quickstart.
 - Your reference agentic-AI course — Month 1 maps to its "intro / first API calls" units.
 - See repo-level [`resources.md`](../resources.md).

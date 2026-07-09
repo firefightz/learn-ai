@@ -29,6 +29,8 @@ it on.
   objectives, topics, a **hands-on lab**, a **deliverable**, and resources.
 - Do the lab every week — the labs are the point. Reading is scaffolding.
 - Each month ends in a **project** in its `projects/` folder. Build it; commit it.
+- Put weekly written work in `notes/` and hands-on experiments in `labs/` inside
+  the relevant month folder.
 - Track progress in [`PROGRESS.md`](./PROGRESS.md).
 - One-time environment setup: [`SETUP.md`](./SETUP.md).
 - Curated links live in [`resources.md`](./resources.md).

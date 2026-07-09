@@ -7,7 +7,7 @@ you learned it — not the reading.
 - [ ] W1 — Field-map note (one page: AI/ML/DL/GenAI in your own words)
 - [ ] W2 — "How an LLM answers" explainer + token experiment
 - [ ] W3 — Prompt library (5 reusable prompts + structured-output demo)
-- [ ] W4 — **Project:** CLI summarizer/chatbot calling the Claude API
+- [ ] W4 — **Project:** CLI summarizer/chatbot calling the OpenAI API
 
 ## Month 2 — Machine Learning
 - [ ] W1 — Train/test split + first classifier

@@ -9,8 +9,9 @@ A lean, curated list. Don't try to read everything — these support the labs.
   (applied ML) and **Month 5** (stats, pandas, the DS workflow).
 
 ## Building with LLMs & agents (Months 1, 4)
-- Anthropic API documentation and the Python SDK quickstart.
-- Anthropic guides on tool use and building agents.
+- OpenAI API documentation and the Python SDK quickstart.
+- OpenAI guides on function calling, structured outputs, embeddings, and building
+  agents.
 - A vector-database quickstart (e.g. Chroma).
 
 ## Classic ML (Month 2)

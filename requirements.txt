@@ -1,0 +1,24 @@
+# Core course dependencies. Install with:
+#   pip install -r requirements.txt
+openai
+python-dotenv
+jupyter
+
+# Data science and classic ML
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+scipy
+statsmodels
+
+# Deep learning
+torch
+torchvision
+
+# Agents, RAG, and serving
+chromadb
+fastapi
+uvicorn
+requests
