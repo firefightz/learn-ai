@@ -61,11 +61,12 @@ and parses structured output.
 ---
 
 ## Week 4 — First Builds (Project Week)
-**Objectives:** Call the OpenAI API from Python and ship something real.
+**Objectives:** Call Claude and a local Ollama model from Python and ship something real.
 
 **Topics**
-- The OpenAI Python SDK: messages, system/developer prompts, model choice,
-  streaming.
+- The Anthropic Python SDK: messages, system prompts, model choice, streaming.
+- Ollama's local API on `localhost:11434`: the same task, free and offline.
+- Switching providers through `common/llm.py`, and comparing quality and speed.
 - Managing API keys safely (`.env`).
 - Cost & model selection: capable model for quality, small model for speed/cost.
 - Basic error handling and retries.
@@ -73,12 +74,12 @@ and parses structured output.
 **Hands-on lab → Project**
 See [`projects/month-1-project.md`](./projects/month-1-project.md).
 
-**Deliverable:** A working **CLI summarizer or chatbot** that takes input, calls the
-OpenAI API, and prints a useful response. Committed to `projects/`.
+**Deliverable:** A working **CLI summarizer or chatbot** that takes input, calls
+Claude or Ollama, and prints a useful response. Committed to `projects/`.
 
 ---
 
 ## Resources
-- OpenAI API docs & the Python SDK quickstart.
+- Claude API docs & the Python SDK quickstart; Ollama API docs.
 - Your reference agentic-AI course — Month 1 maps to its "intro / first API calls" units.
 - See repo-level [`resources.md`](../resources.md).

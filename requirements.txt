@@ -1,6 +1,6 @@
 # Core course dependencies. Install with:
 #   pip install -r requirements.txt
-openai
+anthropic
 python-dotenv
 jupyter
 
@@ -19,6 +19,7 @@ torchvision
 
 # Agents, RAG, and serving
 chromadb
+pypdf
 fastapi
 uvicorn
 requests

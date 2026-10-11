@@ -26,7 +26,9 @@ it on.
 
 ## Other plans and the hands-on lab
 - [`plans/`](./plans/): all my learning plans (this course, the 6-month power-user plan, and the Mac local AI stack) and how they overlap.
-- [`lab/`](./lab/): build-it modules for my MacBook (Ollama, LiteLLM, MCP, agents, RAG local + AWS, GitHub Actions). The lab uses local models and Anthropic; the course labs use OpenAI.
+- [`lab/`](./lab/): build-it modules for my MacBook (Ollama, LiteLLM, MCP, agents, RAG local + AWS, GitHub Actions).
+
+**Models:** everything uses **Claude** (API) and **Ollama** (local on the Mac). Both go through [`common/llm.py`](./common/llm.py); see [`SETUP.md`](./SETUP.md).
 
 ## How to use this repo
 - Each month is a folder with a `README.md` giving the **weekly breakdown**:

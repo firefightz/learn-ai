@@ -1,6 +1,6 @@
 # Month 1 Project — LLM-Powered CLI Tool
 
-Build a small but real command-line tool powered by the OpenAI API.
+Build a small but real command-line tool powered by Claude, with a local Ollama option.
 
 ## Pick one
 1. **Smart summarizer** — paste/point at text, get a tight summary + 3 key points.
@@ -16,7 +16,7 @@ Build a small but real command-line tool powered by the OpenAI API.
 - A short `README.md` in the project folder: what it does, how to run it.
 
 ## Stretch goals
-- Add `--model` to switch between a capable and a fast model.
+- Add `--provider claude|ollama` and `--model` (use `common/llm.py`). Compare answers.
 - Stream the response token-by-token.
 - For the extractor: validate the JSON against a schema before printing.
 

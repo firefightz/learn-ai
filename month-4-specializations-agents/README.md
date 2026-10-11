@@ -78,7 +78,8 @@ See [`projects/month-4-project.md`](./projects/month-4-project.md).
 ---
 
 ## Resources
-- OpenAI docs on function calling, structured outputs, embeddings, and agents.
+- Claude docs on tool use, structured outputs, and agents; Ollama docs on embeddings.
+- Build these weeks in [`lab/`](../lab/): embeddings and RAG (`06`, `07`), tools via MCP (`03`, `04`), agents (`05`).
 - Your reference agentic-AI engineering course — Month 4 is the closest match;
   pull its agent/RAG/deployment modules alongside these weeks.
 - Repo-level [`resources.md`](../resources.md).

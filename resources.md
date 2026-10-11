@@ -9,9 +9,10 @@ A lean, curated list. Don't try to read everything — these support the labs.
   (applied ML) and **Month 5** (stats, pandas, the DS workflow).
 
 ## Building with LLMs & agents (Months 1, 4)
-- OpenAI API documentation and the Python SDK quickstart.
-- OpenAI guides on function calling, structured outputs, embeddings, and building
-  agents.
+- Claude API docs (docs.claude.com): the Python SDK quickstart, tool use,
+  structured outputs, prompt caching, and building agents.
+- Ollama docs (docs.ollama.com): the local REST API, model library, and embeddings.
+- MCP docs (modelcontextprotocol.io) for giving models tools.
 - A vector-database quickstart (e.g. Chroma).
 
 ## Classic ML (Month 2)

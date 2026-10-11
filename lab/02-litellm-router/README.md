@@ -1,6 +1,6 @@
 # 02 · LiteLLM router
 
-Goal: one OpenAI-style endpoint; cheap steps go local, hard reasoning goes to Opus.
+Goal: one endpoint for every model; cheap steps go local, hard reasoning goes to Opus.
 
 - [ ] `uv pip install 'litellm[proxy]'`
 - [ ] Review `config.yaml` (aliases `cheap`, `local`, `smart`)
