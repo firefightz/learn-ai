@@ -24,6 +24,10 @@ it on.
 | 4 | [Specializations & Agentic Systems](./month-4-specializations-agents/) | Build RAG, tools, and multi-step AI agents; deploy them |
 | 5 | [The Math & Data Science Backbone](./month-5-math-and-data-science/) | Understand the linear algebra, calculus, probability, and DS craft under it all |
 
+## Other plans and the hands-on lab
+- [`plans/`](./plans/): all my learning plans (this course, the 6-month power-user plan, and the Mac local AI stack) and how they overlap.
+- [`lab/`](./lab/): build-it modules for my MacBook (Ollama, LiteLLM, MCP, agents, RAG local + AWS, GitHub Actions). The lab uses local models and Anthropic; the course labs use OpenAI.
+
 ## How to use this repo
 - Each month is a folder with a `README.md` giving the **weekly breakdown**:
   objectives, topics, a **hands-on lab**, a **deliverable**, and resources.

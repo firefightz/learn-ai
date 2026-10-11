@@ -1,5 +1,26 @@
 # Progress Tracker
 
+## Hands-on lab (`lab/`)
+- [ ] 00 Setup
+- [ ] 01 Local LLM (Ollama)
+- [ ] 02 LiteLLM router
+- [ ] 03 MCP server (local)
+- [ ] 04 MCP server (AWS)
+- [ ] 05 Agent harness (OpenCode)
+- [ ] 06 RAG from scratch (local)
+- [ ] 07 RAG on AWS
+- [ ] 08 GitHub Actions pipeline
+
+## 6-month power-user plan (`plans/6-month-power-user.md`)
+- [ ] M1 Mental models: `why-models-fail.md`
+- [ ] M2 Agentic coding: `agent-setup.md` playbook
+- [ ] M3 Retrieval: search over this repo
+- [ ] M4 API: one real internal tool
+- [ ] M5 Evals: eval suite with a before/after number
+- [ ] M6 Leverage: internal doc or talk
+
+---
+
 Check off each week's deliverable as you finish it. The deliverable is what proves
 you learned it — not the reading.
 

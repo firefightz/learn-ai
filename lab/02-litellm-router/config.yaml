@@ -1,0 +1,13 @@
+model_list:
+  - model_name: cheap          # routing, summaries, extraction
+    litellm_params:
+      model: ollama_chat/qwen3:8b
+      api_base: http://localhost:11434
+  - model_name: local          # reasoning + tool calls, free
+    litellm_params:
+      model: ollama_chat/gpt-oss:20b
+      api_base: http://localhost:11434
+  - model_name: smart          # planning, synthesis, final answers
+    litellm_params:
+      model: anthropic/claude-opus-5-5
+      api_key: os.environ/ANTHROPIC_API_KEY

@@ -1,0 +1,6 @@
+# Extra dependencies for the hands-on lab (on top of the root requirements.txt)
+anthropic
+pypdf
+chromadb
+mcp[cli]
+litellm[proxy]
