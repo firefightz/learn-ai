@@ -1,7 +1,7 @@
 # Progress Tracker
 
 ## Hands-on lab (`lab/`)
-- [ ] 00 Setup
+- [x] 00 Setup
 - [ ] 01 Local LLM (Ollama)
 - [ ] 02 LiteLLM router
 - [ ] 03 MCP server (local)
