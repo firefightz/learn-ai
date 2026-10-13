@@ -19,3 +19,20 @@ You can watch this happen with `ollama ps`: models appear when called and disapp
 So the full path is: `model: "cheap"` → LiteLLM looks up the alias → `ollama_chat/qwen3:8b` at `localhost:11434` → Ollama loads the model if needed and answers → LiteLLM translates the reply back to you.
 
 The flip side: if Ollama isn't running, LiteLLM can't start it. You'd get a "connection refused" error, and that's worth logging in `failures.md` if you hit it.
+
+## Why a router at all?
+
+Routing (cheap model for easy tasks, strong model for hard ones) and translating (one API for many providers) are two separate ideas.
+
+**Claude doesn't pick the model; your code does.** Every API request names a model, so "Haiku for easy, Opus for hard" is logic you write, or that a tool like Claude Code applies when it runs subagents on cheaper models. With one provider, that's just changing one parameter. No router needed.
+
+**Ollama and LiteLLM do different jobs:**
+- **Ollama runs qwen.** It loads the model into memory and serves it, the way Anthropic's servers run Claude. Needed no matter what.
+- **LiteLLM translates.** Claude's API and Ollama's API expect different request formats. LiteLLM gives one endpoint, one format, and one key, and converts each request for whichever provider the alias points to.
+
+**LiteLLM is a convenience, not a requirement.** You could call Ollama directly (it has an OpenAI-compatible endpoint) alongside the Anthropic SDK, with two clients and an `if`. What LiteLLM adds:
+- **Aliases:** swap `cheap` from qwen to Haiku in `config.yaml` without touching code.
+- **Fallbacks:** if one model fails or is down, try another.
+- **One place for spend and logs** across every provider.
+
+Takeaway: routing exists because tasks differ in difficulty; LiteLLM exists because the models speak different APIs. With Claude only, the routing rules still apply. You just don't need the translator.
