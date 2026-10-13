@@ -2,8 +2,8 @@
 
 ## Hands-on lab (`lab/`)
 - [x] 00 Setup
-- [ ] 01 Local LLM (Ollama)
-- [ ] 02 LiteLLM router
+- [x] 01 Local LLM (Ollama)
+- [x] 02 LiteLLM router
 - [ ] 03 MCP server (local)
 - [ ] 04 MCP server (AWS)
 - [ ] 05 Agent harness (OpenCode)
